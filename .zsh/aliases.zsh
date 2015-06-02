@@ -5,7 +5,7 @@ alias start-rtorrent='sudo /etc/init.d/rtorrent start'
 alias stop-rtorrent='sudo /etc/init.d/rtorrent stop'
 alias start-irssi='sudo /etc/init.d/irssi start'
 alias stop-irssi='sudo /etc/init.d/irssi stop'
-alias rtorrent-ps='screen -dmS rtorrent rtorrent-ps-extended -n -o import=~/.rtorrent-ps.rc'
+alias rtps='screen -dmS rtorrent rtorrent-ps-extended -n -o import=~/.rtorrent-ps.rc'
 
 ## Create parent directories on demand
 alias mkdir='mkdir -pv'
