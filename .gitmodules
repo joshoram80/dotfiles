@@ -4,3 +4,6 @@
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = git@github.com:joshoram80/oh-my-zsh.git
+[submodule "vim/bundle/rtorrent-syntax-file"]
+	path = vim/bundle/rtorrent-syntax-file
+	url = git@github.com:vim-scripts/rtorrent-syntax-file.git
