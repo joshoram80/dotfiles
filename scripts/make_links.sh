@@ -45,7 +45,14 @@ echo "Linking .rtorrent.rc..."
 rm ~/.rtorrent.rc
 ln -s $HOME/.dotfiles/.rtorrent.rc $HOME/.rtorrent.rc
 
-#.rtorrent-ps.rc
+##.rtorrent-ps.rc
 echo "Linking .rtorrent-ps.rc..."
 rm ~/.rtorrent.rc
 ln -s $HOME/.dotfiles/.rtorrent-ps.rc $HOME/.rtorrent-ps.rc
+
+#redshift.conf
+echo "Linking redshift.conf...
+rm ~/.config/redshift.conf
+ln -s $HOME/.dotfiles/.config/redshift.conf $HOME/.config/redshift.conf
+
+
