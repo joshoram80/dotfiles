@@ -77,4 +77,4 @@ alias fcat='< ~/.dotfiles/.zsh/functions.zsh'
 alias sz='source ~/.zshrc'
 
 #Filebot aliases
-alias fbtv='filebot -rename --db TheTVDB -non-strict --format "/home/stuntard/Videos/TV/{n}/Season {s.pad(2)}/{n}.{s00e00}.{t}" .'
+alias fbtv='filebot -rename ./**/* --db TheTVDB -non-strict --format "/home/stuntard/Videos/TV/{n}/Season {s.pad(2)}/{n}.{s00e00}.{t}"'
