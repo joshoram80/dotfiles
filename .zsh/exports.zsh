@@ -12,6 +12,7 @@ export LANG=en_US.UTF-8
 # Enable color in grep
 export GREP_OPTIONS='--color=auto'
 export GREP_COLOR='3;33'
+export GREP_COLORS='ms=01;33:mc=01;33:sl=:cx=:fn=35:ln=32:bn=32:se=36'
 
 # This resolves issues install the mysql, postgres, and other gems with native non universal binary extensions
 export ARCHFLAGS='-arch x86_64'
