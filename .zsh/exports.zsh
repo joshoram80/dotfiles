@@ -1,5 +1,5 @@
 # Currently this path is appendend to dynamically when picking a ruby version
-export PATH="/home/owner/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games"
+export PATH="/home/owner/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:$PATH"
 
 # Setup terminal, and turn on colors
 export TERM=xterm-256color

@@ -1,0 +1,2 @@
+alias dget "queue mirror --use-pget-n=6 --parallel=3"
+alias fget "queue pget -n 6"
