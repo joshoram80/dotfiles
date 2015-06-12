@@ -78,6 +78,8 @@ alias sz='source ~/.zshrc'
 
 #Filebot aliases
 alias fbtv='filebot -rename ./**/* --db TheTVDB -non-strict --format "/home/stuntard/Videos/TV/{n}/Season {s.pad(2)}/{n}.{s00e00}.{t}"'
+alias fbmovies='filebot -rename ./**/* --db TheMovieDB -non-strict --format "/home/stuntard/Videos/Movies/{n}/{n}{t}"' 
+
 
 # FTP Servers
 alias seedbox='set sftp:connect-program "ssh -a -x -i ~/.ssh/id_dsa"; lftp -u stuntard, sftp://spicywiener.chmuranet.net'
