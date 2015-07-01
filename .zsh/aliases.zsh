@@ -83,3 +83,6 @@ alias fbmovies='filebot -rename ./**/* --db TheMovieDB -non-strict --format "/ho
 
 # FTP Servers
 alias seedbox='set sftp:connect-program "ssh -a -x -i ~/.ssh/id_dsa"; lftp -u stuntard, sftp://spicywiener.chmuranet.net'
+
+#Other Git stuff not covered by plugins
+alias git-pup='git pull && git submodule init && git submodule update && git submodule status'
