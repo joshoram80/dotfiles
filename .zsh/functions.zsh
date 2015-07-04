@@ -87,3 +87,7 @@ function myip() {
   ifconfig en1 | grep 'inet ' | sed -e 's/:/ /' | awk '{print "en1 (IPv4): " $2 " " $3 " " $4 " " $5 " " $6}'
   ifconfig en1 | grep 'inet6 ' | sed -e 's/ / /' | awk '{print "en1 (IPv6): " $2 " " $3 " " $4 " " $5 " " $6}'
 }
+
+seedbox() {
+	tmux new -A -s ftp 'set sftp:connect-program "ssh -a -x -i ~/.ssh/id_dsa"; lftp -u stuntard, sftp://spicywiener.chmuranet.net'
+}
