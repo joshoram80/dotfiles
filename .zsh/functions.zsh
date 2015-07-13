@@ -91,3 +91,7 @@ function myip() {
 seedbox() {
 	tmux new -A -s ftp 'set sftp:connect-program "ssh -a -x -i ~/.ssh/id_dsa"; lftp -u stuntard, sftp://spicywiener.chmuranet.net'
 }
+
+bupnp() {
+	tmux new -A -s bubbleupnp '/usr/share/bubbleupnpserver/launch.sh'
+}
