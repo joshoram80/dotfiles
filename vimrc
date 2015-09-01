@@ -13,7 +13,7 @@ colorscheme solarized
 " Always show statusline
 set laststatus=2
 
-set rtp+=$HOME/.anyenv/envs/pyenv/versions/2.7.9/lib/python2.7/site-packages/powerline/bindings/vim
+set rtp+=/usr/local/lib/python2.7/dist-packages/powerline/bindings/vim
  
 " These lines setup the environment to show graphics and colors correctly.
 set nocompatible
